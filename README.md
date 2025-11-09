@@ -7,7 +7,7 @@ A minimal, cloud-hosted expense tracker you can deploy and demo from anywhere.
 - Add expense (amount, category, date, note)
 - List expenses with monthly total
 - Category pie chart
-- Export CSV
+- Export CSV and upload it somewhere new
 
 ## Stack
 - **Frontend:** React + Vite
