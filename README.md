@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloud Expense Tracker (Mini Project)
 
 A minimal, cloud-hosted expense tracker you can deploy and demo from anywhere.
@@ -24,3 +25,7 @@ A minimal, cloud-hosted expense tracker you can deploy and demo from anywhere.
 - For mini project simplicity, authentication is optional. The API uses a default `userId = 'demo'` when no auth header is present.
 - To simulate multiple users during testing, pass `?userId=alice` to GET and POST requests.
 
+=======
+# Expense-tracker
+A cloud-based expense tracker using React, Azure Functions, MongoDB
+>>>>>>> fb3ef63c3a4fbb831264214e8bbac03a0345ec4f
