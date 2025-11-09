@@ -1,0 +1,155 @@
+:root {
+  --bg: #0b1020;
+  --card: #141b2d;
+  --muted: #aab3c5;
+  --text: #e5e9f3;
+  --brand: #4f46e5;
+  --brand-2: #22d3ee;
+  --ok: #16a34a;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --border: #24304a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #0b1020 0%, #0e152b 100%);
+  color: var(--text);
+  font-family:
+    Inter,
+    system-ui,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 1.25rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem;
+}
+.subtitle {
+  color: var(--muted);
+  margin: 0.25rem 0 1.25rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.grow {
+  flex: 1;
+}
+
+label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+input[type='month'],
+select {
+  background: #0f1628;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  width: 100%;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+button {
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #10182b;
+  color: #d5def0;
+  border: 1px solid var(--border);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ffb4b4;
+  background: #35171a;
+  border: 1px solid #5c1f25;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid var(--border);
+  padding: 0.65rem 0.5rem;
+  text-align: left;
+}
+
+.table th {
+  color: #b8c2d6;
+  font-weight: 600;
+}
+.table tr:hover td {
+  background: #111a2f;
+}
+
+.kpi {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.25rem 0.5rem;
+  background: #0f172a;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.footer-note {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
