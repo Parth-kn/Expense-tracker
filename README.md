@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Cloud Expense Tracker (Mini Project)
 A minimal, cloud-hosted expense tracker you can deploy and demo from anywhere.
 
@@ -71,4 +70,3 @@ Contributors:
 Your Name (Contact/Email)
 
 MCA Cloud Computing Project — VIT
->>>>>>> fb3ef63c3a4fbb831264214e8bbac03a0345ec4f
